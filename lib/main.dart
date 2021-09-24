@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
           borderRadius: BorderRadius.circular(8.0),
         ),
         child: ListTile(
-          title: Text(data["titleだよ"]),
+          title: Text(data["titleだよ１"]),
           trailing: Text(data["detail"].toString()),
           onTap: (){
             Navigator.push(context, MaterialPageRoute(builder: (context) => DetailPage(snap)));
